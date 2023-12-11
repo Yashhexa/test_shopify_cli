@@ -1,10 +1,5 @@
 {
   "sections": {
-    "a41568e4-da9a-4648-a640-02c0262b0ef9": {
-      "type": "custom-section",
-      "settings": {
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -35,7 +30,6 @@
     }
   },
   "order": [
-    "a41568e4-da9a-4648-a640-02c0262b0ef9",
     "banner",
     "product-grid"
   ]
