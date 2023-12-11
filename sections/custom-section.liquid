@@ -2,7 +2,7 @@
 
 {% schema %}
     {
-        "name":"Custom Section",
+        "name": "Custom Section",
         "settings": [
             {
                 "type": "text",
@@ -10,10 +10,11 @@
                 "label": "Text",
             }
         ],
-        "presets":[{ "name": "Default custom section"}],
+        "presets": [{ "name": "Default custom section" }],
         "tag": "header",
-        "class":"custom-section",
-        "blocks":[
+        "class": "custom-section",
+        "limit": 1,
+        {% comment %} "blocks": [
             {
                 "name":"Social link",
                 "type":"social",
@@ -30,6 +31,6 @@
                     },
                 ],
             }
-        ]
+        ], {% endcomment %}
     }
 {% endschema %}
