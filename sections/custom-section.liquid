@@ -1,36 +1,36 @@
 <h1>{{ section.settings.text }}</h1>
 
 {% schema %}
-    {
-        "name": "Custom section",
-        "settings": [
-            {
-                "type": "text",
-                "id": "text",
-                "label": "Text",
-            }
-        ],
-        "presets": [{ "name": "Default custom section" }],
-        "tag": "header",
-        "class": "custom-section",
-        "limit": 1,
-        {% comment %} "blocks": [
-            {
-                "name":"Social link",
-                "type":"social",
-                "settings": [
-                    {
-                        "type": "text",
-                        "id": "text",
-                        "label": "Text",
-                    },
-                    {
-                        "type": "url",
-                        "id": "url",
-                        "label": "URL",
-                    },
-                ],
-            }
-        ], {% endcomment %}
-    }
+{
+    "name": "Custom section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+        }
+    ],
+    "presets": [{ "name": "Default custom section" }],
+    "tag": "header",
+    "class": "custom-section",
+    "limit": 1,
+    "blocks": [
+        {
+            "name":"Social link",
+            "type":"social",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "URL"
+                }
+            ]
+        }
+    ]
+}
 {% endschema %}
